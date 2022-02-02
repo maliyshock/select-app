@@ -16,7 +16,7 @@ export default function Select(props) {
 
   const onClick = () => {
     setIsOpened(true);
-    triggerElementRef.current.click();
+    triggerElementRef.current.focus();
   }
 
   const onBlur = () => {
